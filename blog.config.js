@@ -2,7 +2,7 @@
 const BLOG = {
   AUTHOR: 'itauge', // 作者
   BIO: 'Be Tough', // 作者简介
-  LINK: 'https://itauge.blog', // 网站地址
+  LINK: 'https://itauge.me', // 网站地址
   KEYWORDS: 'Notion, Blog, Japan', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
@@ -129,7 +129,7 @@ const BLOG = {
 
   // 无关紧要的配置
   AVATAR: '/avatar.png', // 作者头像，被notion中的ICON覆盖。如果没有ICON则取public目录下的avatar.png
-  TITLE: process.env.NEXT_PUBLIC_TITLE || 'NotionNext BLOG', // 站点标题 ，被notion中的页面标题覆盖
+  TITLE: 'itauge\'s Blog', // 站点标题 ，被notion中的页面标题覆盖 process.env.NEXT_PUBLIC_TITLE ||
   DESCRIPTION:
     process.env.NEXT_PUBLIC_DESCRIPTION || '这是一个由NotionNext生成的站点', // 站点描述，被notion中的页面描述覆盖
 
